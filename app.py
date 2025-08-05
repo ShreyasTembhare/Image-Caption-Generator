@@ -27,7 +27,7 @@ except ImportError as e:
 
 # Page configuration
 st.set_page_config(
-    page_title="Advanced Image Caption Generator",
+    page_title="Advanced Image Caption Generator v2.0",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -500,12 +500,14 @@ class AdvancedCaptionGenerator:
 
 def display_header():
     """Display the application header."""
-    st.markdown('<h1 class="main-header">🤖 Advanced Image Caption Generator</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🤖 Advanced Image Caption Generator v2.0</h1>', unsafe_allow_html=True)
     st.markdown('<p style="text-align: center; font-size: 1.2rem; color: #666;">Generate intelligent captions with multiple AI models and deep learning</p>', unsafe_allow_html=True)
     
     # Display deep learning status
     if DEEP_LEARNING_AVAILABLE:
         st.markdown('<div class="deep-learning-badge">🚀 Deep Learning Enabled (MobileNetV2 + LSTM)</div>', unsafe_allow_html=True)
+    else:
+        st.markdown('<div class="template-badge">📝 Template-based Generation Active</div>', unsafe_allow_html=True)
 
 def display_sidebar():
     """Display the advanced sidebar configuration."""
