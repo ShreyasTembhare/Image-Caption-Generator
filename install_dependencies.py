@@ -116,7 +116,7 @@ def check_installation():
 def main():
     """Main installation function."""
     print("=" * 60)
-    print("🤖 Advanced Image Caption Generator - Dependency Installer")
+    print("🤖 Advanced Image Caption Generator v2.0 - Dependency Installer")
     print("=" * 60)
     
     # Install dependencies
