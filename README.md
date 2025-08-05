@@ -2,7 +2,7 @@
 
 A sophisticated Streamlit application for generating intelligent captions from images using multiple AI models and deep learning capabilities.
 
-## 🚀 Features
+## Features
 
 - **Multiple AI Models**: Creative, Descriptive, Technical, Emotional, Deep Learning
 - **Deep Learning**: MobileNetV2 + LSTM with attention mechanism
@@ -11,7 +11,7 @@ A sophisticated Streamlit application for generating intelligent captions from i
 - **Export Options**: JSON, CSV, TXT formats
 - **Real-time Processing**: Under 2 seconds per image
 
-## 🛠️ Installation
+## Installation
 
 ### Quick Start
 ```bash
@@ -39,7 +39,7 @@ run_app.bat
 .\run_app.ps1
 ```
 
-## 📖 Usage
+## Usage
 
 1. **Upload Image**: Select a single image or multiple images for batch processing
 2. **Choose Model**: Select from Creative, Descriptive, Technical, Emotional, or Deep Learning
@@ -47,28 +47,28 @@ run_app.bat
 4. **Generate**: Click "Generate Advanced Captions" to create intelligent captions
 5. **Export**: Download results in your preferred format
 
-## 🧠 Deep Learning Features
+## Deep Learning Features
 
 - **MobileNetV2**: Pre-trained CNN for feature extraction
 - **LSTM Attention**: Bidirectional LSTM with attention mechanism
 - **BLEU Score**: Quality assessment using BLEU metrics
 - **Real-time**: Fast processing with progress indicators
 
-## 📊 Performance
+## Performance
 
 - **Processing Speed**: <2 seconds per image
 - **BLEU Scores**: BLEU-1: 0.65, BLEU-2: 0.45
 - **Training Data**: 10,000+ images with captions
 - **Model Architecture**: MobileNetV2 + LSTM with attention
 
-## 🛠️ Requirements
+## Requirements
 
 - Python 3.8+
 - TensorFlow 2.16+
 - Streamlit
 - Other dependencies listed in `requirements.txt`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Image-Caption-Generator/
@@ -81,7 +81,7 @@ Image-Caption-Generator/
 └── README.md                # This file
 ```
 
-## 🚀 Quick Demo
+## Quick Demo
 
 1. Run `streamlit run app.py`
 2. Upload an image
@@ -89,11 +89,11 @@ Image-Caption-Generator/
 4. Generate captions instantly
 5. Export results in multiple formats
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to submit issues and enhancement requests!
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
