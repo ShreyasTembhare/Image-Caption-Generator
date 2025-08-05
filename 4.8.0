@@ -1,0 +1,2 @@
+Requirement already satisfied: opencv-python in d:\shreyas( do not delete)\projects\image-caption-generator\venv\lib\site-packages (4.11.0.86)
+Requirement already satisfied: numpy>=1.21.2 in d:\shreyas( do not delete)\projects\image-caption-generator\venv\lib\site-packages (from opencv-python) (1.26.4)

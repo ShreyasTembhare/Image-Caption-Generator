@@ -1,0 +1,6 @@
+Requirement already satisfied: nltk in d:\shreyas( do not delete)\projects\image-caption-generator\venv\lib\site-packages (3.9.1)
+Requirement already satisfied: click in d:\shreyas( do not delete)\projects\image-caption-generator\venv\lib\site-packages (from nltk) (8.2.1)
+Requirement already satisfied: joblib in d:\shreyas( do not delete)\projects\image-caption-generator\venv\lib\site-packages (from nltk) (1.5.1)
+Requirement already satisfied: regex>=2021.8.3 in d:\shreyas( do not delete)\projects\image-caption-generator\venv\lib\site-packages (from nltk) (2024.11.6)
+Requirement already satisfied: tqdm in d:\shreyas( do not delete)\projects\image-caption-generator\venv\lib\site-packages (from nltk) (4.67.1)
+Requirement already satisfied: colorama in d:\shreyas( do not delete)\projects\image-caption-generator\venv\lib\site-packages (from click->nltk) (0.4.6)

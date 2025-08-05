@@ -1,0 +1,5 @@
+Requirement already satisfied: scikit-learn in d:\shreyas( do not delete)\projects\image-caption-generator\venv\lib\site-packages (1.7.1)
+Requirement already satisfied: numpy>=1.22.0 in d:\shreyas( do not delete)\projects\image-caption-generator\venv\lib\site-packages (from scikit-learn) (1.26.4)
+Requirement already satisfied: scipy>=1.8.0 in d:\shreyas( do not delete)\projects\image-caption-generator\venv\lib\site-packages (from scikit-learn) (1.16.1)
+Requirement already satisfied: joblib>=1.2.0 in d:\shreyas( do not delete)\projects\image-caption-generator\venv\lib\site-packages (from scikit-learn) (1.5.1)
+Requirement already satisfied: threadpoolctl>=3.1.0 in d:\shreyas( do not delete)\projects\image-caption-generator\venv\lib\site-packages (from scikit-learn) (3.6.0)
