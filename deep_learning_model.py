@@ -69,9 +69,11 @@ logger = logging.getLogger(__name__)
 class DeepLearningCaptionGenerator:
     """
     Advanced deep learning caption generator with MobileNetV2 and LSTM attention.
+    Version: 2.0
     """
     
     def __init__(self, model_path=None, tokenizer_path=None):
+        self.version = "2.0"
         self.feature_extractor = None
         self.caption_model = None
         self.tokenizer = None
@@ -571,6 +573,7 @@ class DeepLearningCaptionGenerator:
     def get_model_info(self):
         """Get information about the deep learning model."""
         info = {
+            'version': self.version,
             'feature_extractor': 'MobileNetV2' if TENSORFLOW_AVAILABLE else 'Not Available',
             'caption_model': 'LSTM with Attention' if TENSORFLOW_AVAILABLE else 'Not Available',
             'feature_dimension': self.feature_dim,
