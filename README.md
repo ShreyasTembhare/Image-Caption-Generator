@@ -1,8 +1,8 @@
-# Advanced Image Caption Generator
+# Advanced Image Caption Generator v2.0
 
 A sophisticated Streamlit application for generating intelligent captions from images using multiple AI models and deep learning capabilities.
 
-## 🚀 Advanced Features
+## 🚀 Version 2.0 Features
 
 ### 🤖 Multiple AI Models
 - **Creative AI Model**: Generates artistic, expressive captions
