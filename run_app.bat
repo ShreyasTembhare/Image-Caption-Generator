@@ -1,5 +1,5 @@
 @echo off
-echo Starting Advanced Image Caption Generator...
+echo Starting Advanced Image Caption Generator v2.0...
 echo.
 
 REM Activate virtual environment

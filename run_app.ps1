@@ -1,5 +1,5 @@
-# Advanced Image Caption Generator - Launcher Script
-Write-Host "🚀 Starting Advanced Image Caption Generator..." -ForegroundColor Green
+# Advanced Image Caption Generator v2.0 - Launcher Script
+Write-Host "🚀 Starting Advanced Image Caption Generator v2.0..." -ForegroundColor Green
 Write-Host ""
 
 # Activate virtual environment
